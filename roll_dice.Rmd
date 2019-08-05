@@ -1,0 +1,13 @@
+---
+title: "Roll Dice"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r roll_dice}
+roll_dice = sample(1:6,100,replace=TRUE) # roll dice 100 times
+hist(roll_dice,breaks=c(0.5,1.5,2.5,3.5,4.5,5.5,6.5), probability=TRUE) # create histogram of probability densities
+```
+
+
+
