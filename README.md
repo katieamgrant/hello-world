@@ -1,2 +1,2 @@
 # hello-world
-My first repository
+My name is Katie and I am studying Business Analytics.
